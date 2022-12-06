@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bacgr.png);
+}
+nav{
+    position: fixed;
+}
+.menubox{
+    width: 100%;
+    height: 70px;
+    background-color: #b4def899;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    box-sizing: border-box;
+    z-index: 1;
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+.menubox a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 80px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    left: -50px;
+    top: 10px;   
+}
+.menubox a:hover{
+    text-decoration: none;
+    color: palevioletred;
+
+}
+
+.menu li.selected{
+    text-decoration: underline;
+}
+
+.img{
+    height: 410px;
+    width: 915px;
+    top: -130px;
+    position: relative;
+    left: -15px;
+}
+
+.insta{
+    height: 30px;
+    width: 30px;
+    top: -151px;
+    position: relative;
+    left: 500px;
+}
+
+.pt{
+    height: 35px;
+    width: 35px;
+    top: -149px;
+    position: relative;
+    left: 567px;
+}
+
+.twitter{
+    height: 36px;
+    width: 36px;
+    top: -148px;
+    position: relative;
+    left: 480px;
+}
+
+.cart{
+    height: 40px;
+    width: 40px;
+    top: -145px;
+    position: relative;
+    left: 280px;
+}
+
+.mcd{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    left: 200px;
+    top: 200px;
+}
+
+h3{
+    color: rgb(56, 64, 65);
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: 202px;
+    top: 100px;
+}
+
+#t2{
+    color: rgb(56, 64, 65);
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: 900px;
+    top: -300px;
+}
+    
+#t3{
+    color: rgb(56, 64, 65);
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: 202px;
+    top: -680px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.title2{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 900px;
+    top: -300px;
+}
+.title3{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    left: 200px;
+    top: -680px;
+}
+
+.mercado{
+    width: 580.912863px;
+    height: 550px;
+    position: relative;
+    top: -390px;
+    left: 900px;
+    opacity: 1;
+}
+
+.nmsocial{
+    width: 650px;
+    height: 650px;
+    position: relative;
+    top: -800px;
+    left: 120px;
+    opacity: 1;
+}
+
+.disc{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    top: -700px;
+    left: 900px;
+}
+.text1 p{
+    background-color: white;
+    position: relative;
+}
+
+.text2 p{
+    background-color: white;
+    position: relative; 
+}
+
+.text3 p{
+    background-color: white;
+    position: relative; 
+}
+.text3{
+    position: relative;
+    height: 0px;
+}
+
+button{
+    width: 120px;
+    height: 60px;
+    position: relative;
+    top: -614px;
+    left: 570px;
+    color: inherit;
+}
+
+.cc{
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    position: relative;
+    top: -2000px;
+    left: 200px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: rgb(164, 204, 255);
+    border-radius: 5px;
+
+}
+
+.cc2{
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    position: relative;
+    top: -1490px;
+    left: 1230px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: rgb(164, 204, 255);
+    border-radius: 5px;
+
+}
+
+.cc3{
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    position: relative;
+    top: -830px;
+    left: 200px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    background-color: rgb(164, 204, 255);
+    border-radius: 5px;
+
+}
+
+.h:hover{
+    text-decoration: none;
+    background-color: rgba(243, 177, 199, 0.897);
+}
+
+#link{
+    color: black;
+    text-decoration: none;
+    
+}
+
+#thena{
+    width: 100%;
+    height: 280px;
+    position: relative;
+    
+    background-color: rgba(206, 236, 255, 0.89);
+    
+    bottom: 0px;
+   
+}
+
+.ctt{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    top: 35px;
+    position: relative;
+}
+
+#email{
+    font-family: 'Montserrat', sans-serif;
+    top: 106px;
+    position: relative;
+    left: 250px;
+}
+
+#insta{
+    font-family: 'Montserrat', sans-serif;
+    top: 60px;
+    position: relative;
+    left: 1400px;
+}
+
+#tt{
+    font-family: 'Montserrat', sans-serif;
+    top: 20px;
+    position: relative;
+    left: 860px;
+}
+#int{
+    font-family:  'Open Sans', sans-serif;
+    top: 70px; 
+    left: 870px;
+ }
+
+#instacor{
+    position: relative;
+    height: 33px;
+    width: 33px;
+    top: -75px;
+    left:1350px;
+}
+
+#emailcor{
+    position: relative;
+    height: 35px;
+    width: 40px;
+    top: -75px;
+    left: 160px;
+}
+
+#ttcolor{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: -70px;
+    left: 720px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    left: -600px;
+    top: -90px;
+    position: relative;
+}
+
+
+
+.titent{
+    font-family: 'Montserrat', sans-serif;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    font-size: 60px;
+    padding: 0px 430px;
+
+    
+}
+ 
+
+
+.vid{
+    position: relative;
+    top: -500px;
+    padding: 0 200px;
+}
+
+
+.sobt{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 50px;
+    
+}
+#trabor{
+    color: rgb(56, 64, 65);
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    left: 0px;
+    top: 50px;
+    position: relative;
+    
+}
+
+
+.sob{
+    padding: 0 0px;
+    height: 0px;
+    
+}
+.sobt p{
+    background-color: white;
+    position: relative; 
+}
+.instat{
+    text-decoration: none;
+    color: #edc8d8;
+}
+.instat:hover{
+    color: #c2cdf1;
+    text-decoration: underline;
+}
+.tudo{
+    position: relative;
+    padding: 0 100px;
+    margin-bottom: 0px;
+}
